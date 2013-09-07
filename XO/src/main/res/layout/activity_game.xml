@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="20"
+    android:padding="5dp">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:background="#b5104c"
+        android:weightSum="15"
+        android:id="@+id/topRow">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#f7fcff"
+            android:id="@+id/frameTopLeft"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/topLeft"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="00" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#f7fcff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/frameTopCenter"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/topCenter"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="01" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#f7fcff"
+            android:id="@+id/frameTopRight"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/topRight"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="02" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:weightSum="15"
+        android:animationCache="false"
+        android:background="#b5104c"
+        android:id="@+id/centerRow">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#f7fcff"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/frameCenterLeft"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/centerLeft"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="10" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#f7fcff"
+            android:layout_margin="5dp"
+            android:id="@+id/frameCenterCenter"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/centerCenter"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="11" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#f7fcff"
+            android:id="@+id/frameCenterRight"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/centerRight"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="12" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:background="#b5104c"
+        android:weightSum="15"
+        android:id="@+id/bottomRow">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#f7fcff"
+            android:id="@+id/frameBottomLeft"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/bottomLeft"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="20" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#f7fcff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/frameBottomCenter"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/bottomCenter"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="21" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#f7fcff"
+            android:id="@+id/frameBottomRight"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/bottomRight"
+                android:layout_gravity="center"
+                android:textSize="120dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:tag="22" />
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="10">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Выйти"
+                android:id="@+id/buttonExit"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:onClick="endGame" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Заново"
+                android:id="@+id/buttonRestart"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:onClick="restartGame" />
+        </LinearLayout>
+    </TableRow>
+</LinearLayout>
